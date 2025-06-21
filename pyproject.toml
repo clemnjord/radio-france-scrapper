@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "radio-france-scrapper"
+version = "0.1.0"
+description = ""
+authors = ["clemnjord <clementpuech@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+unidecode = "^1.4.0"
+requests = "^2.32.4"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
